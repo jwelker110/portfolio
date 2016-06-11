@@ -9,7 +9,7 @@ figcaption {
 #logo {
     height: 40px;
     width: 40px;
-    border-radius: 5px;
+    border-radius: 999px;
     margin: 5px 15px;
     float: left;
 }
@@ -41,4 +41,11 @@ figcaption {
 
 .work-description {
     margin: 10px auto;
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar-right {
+        text-align: center;
+    }
 }
