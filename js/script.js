@@ -33,7 +33,7 @@ $(document).ready(function(){
       });
     } else {
       sections.each(function() {
-        $(this).height('inherit');
+        $(this).height('initial');
       })
     }
   }
