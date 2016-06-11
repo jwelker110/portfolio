@@ -33,13 +33,26 @@ figcaption {
     text-align: center;
 }
 
+.work-link {
+    color: inherit;
+}
+
+.work-link:hover,
+.work-link:active,
+.work-link:focus {
+    text-decoration: none;
+    color: #1e81bf;
+}
+
 .work-image {
     display: block;
     margin: 0px auto;
     max-width: 100%;
+    box-shadow: 1px 1px 5px 1px #ddd;
 }
 
 .work-description {
+    max-width: 320px;
     margin: 10px auto;
 }
 
@@ -47,5 +60,11 @@ figcaption {
 @media screen and (max-width: 767px) {
     .navbar-right {
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h2 {
+        height: 66px;
     }
 }
