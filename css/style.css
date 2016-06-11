@@ -24,6 +24,10 @@ footer {
     max-width: 100%;
 }
 
+#main-image-container {
+    border-bottom: solid 1px #1e81bf;
+}
+
 .navbar-default {
     background-color: transparent;
     border-radius: 0px;
