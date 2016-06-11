@@ -31,11 +31,6 @@ footer {
     border-bottom: solid 1px #1e81bf;
 }
 
-.work-container {
-    border-radius: 10px;
-    background-color: #eee;
-}
-
 .work {
     opacity: 0;
 }
