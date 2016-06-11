@@ -3,13 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <title>Jonathan Welker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- loading after BS so we can overwrite the styles as needed -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img id="logo" src="http://placehold.it/50x50" alt="Logo">
+                <a class="navbar-brand" href="#">Full Stack Developer</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse pull-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#work">My Work</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <figure>
+                    <img id="main-image" alt="Landing Image" src="http://placehold.it/700x400">
+                    <figcaption>I am currently pursuing a Full Stack Web Developer nano-degree with Udacity</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <section class="work">
+                    <h3 class="work-title">Example of Work</h3>
+                    <img class="work-image" alt="Portfolio Item Image" src="http://placehold.it/350x200">
+                    <article class="work-description">
+                        <p>
+                            &nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed nec magna eget risus ornare malesuada. Etiam mauris elit,
+                            accumsan non convallis non, eleifend eget sapien. Aliquam
+                            volutpat tellus ac odio venenatis sagittis. Mauris faucibus
+                            blandit risus.</p>
+                    </article>
+                </section>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <section class="work">
+                    <h3 class="work-title">Example of Work</h3>
+                    <img class="work-image" src="http://placehold.it/350x200">
+                    <article class="work-description">
+                        <p>
+                            &nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed nec magna eget risus ornare malesuada. Etiam mauris elit,
+                            accumsan non convallis non, eleifend eget sapien. Aliquam
+                            volutpat tellus ac odio venenatis sagittis. Mauris faucibus
+                            blandit risus.</p>
+                    </article>
+                </section>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <section class="work">
+                    <h3 class="work-title">Example of Work</h3>
+                    <img class="work-image" src="http://placehold.it/350x200">
+                    <article class="work-description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed nec magna eget risus ornare malesuada. Etiam mauris elit,
+                            accumsan non convallis non, eleifend eget sapien. Aliquam
+                            volutpat tellus ac odio venenatis sagittis. Mauris faucibus
+                            blandit risus.</p>
+                    </article>
+                </section>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <section class="work">
+                    <h3 class="work-title">Example of Work</h3>
+                    <img class="work-image" src="http://placehold.it/350x200">
+                    <article class="work-description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed nec magna eget risus ornare malesuada. Etiam mauris elit,
+                            accumsan non convallis non, eleifend eget sapien. Aliquam
+                            volutpat tellus ac odio venenatis sagittis. Mauris faucibus
+                            blandit risus.</p>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </div>
 
     <footer>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+                integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
     </footer>
 </body>
