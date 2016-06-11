@@ -1,0 +1,44 @@
+img {
+    border-radius: 5px;
+}
+
+figcaption {
+    text-align: center
+}
+
+#logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 5px 15px;
+    float: left;
+}
+
+#home {
+    text-align: right;
+    border-bottom: solid 2px #23528b;
+}
+
+#main-image {
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.work {
+    display: none;
+}
+
+.work-title {
+    text-align: center;
+}
+
+.work-image {
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+}
+
+.work-description {
+    margin: 10px auto;
+}
