@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(window).load(function(){
   var sections = $(".work");
 
   var mql = window.matchMedia("(min-width: 992px)");
@@ -10,7 +10,7 @@ $(document).ready(function(){
   sections.each(function(index){
     var el = this;
     setTimeout(function(){
-      $(el).fadeIn(1000);
+      $(el).animate({'opacity': '1'}, 1000);
     }, 200*index);
   });
 
@@ -26,7 +26,6 @@ $(document).ready(function(){
         if (height > max) {
           max = height;
         }
-
       });
       sections.each(function() {
         $(this).height(max);
